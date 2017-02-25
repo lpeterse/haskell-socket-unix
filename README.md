@@ -11,7 +11,7 @@ import System.Socket
 import System.Socket.Type.Stream
 import System.Socket.Family.Unix
 
-s <- socket :: IO (Socket Unix Stream Unix)
+s <- socket :: IO (Socket Unix Stream Default)
 ```
 
 Creating the address for binding/connecting
